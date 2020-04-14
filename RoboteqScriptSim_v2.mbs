@@ -73,7 +73,7 @@ end if
 
 if 500 <= gv and gv <= 1000 then 
 
-    print("JR time") 
+    print("running 1") 
 
     gv += ramp*5  
 
@@ -82,7 +82,7 @@ end if
 'Ramps between 1000 to 1500   
 
 if 1000 <= gv and gv <= 1500 then 
-    print("JR wya") 
+    print("running 2") 
     gv += ramp*5  
 end if   
 'decreasing gv 
